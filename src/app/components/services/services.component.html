@@ -1,0 +1,138 @@
+<div #ElementInit class="paginas-internas">
+    <section class="bienvenidos">
+
+        <app-header></app-header>
+
+
+        <div class="texto-encabezado text-xs-center">
+
+            <div class="container">
+                <h1 class="display-4  wow bounceIn">Servicios</h1>
+                <p class="wow bounceIn" data-wow-delay=".3s">Vendemos y Capacitamos en seguridad integral.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="ruta py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-right">
+                    <a [routerLink]="['/home']">Inicio</a> » Servicios
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="py-1 lista-servicios">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <article class="item-servicios">
+                        <i class="fa fa-usd" aria-hidden="true"></i>
+                        <h4>Venta, recarga y mantenimiento de equipos</h4>
+
+                        <ul style="text-align: left;">
+                            <li>Venta, recarga y mantenimiento de Extintores, equipos contra incendio, granadas vs incendio y Extintores Automáticos.</li>
+                            <li>Equipo pre hospitalario, camillas, botiquines</li>
+                            <li>Detectores de humo e incendio</li>
+                            <li>Equipo de protección personal conforme <font color="red">NOM 017 STPS</font></li>
+                            <li>Señalización informativa, restrictiva y de obligación NOM 026 STPS Y 003 SEGOB 2011</li>
+                            <li>Seguridad vial, cinta delimitadora, banderolas, conos viales, trafi tambos, chalecos</li>
+                            <li>Equipo de rescate para trabajos en alturas y espacios confinados</li>
+
+                        </ul>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#servicio1">Más información</a>
+
+                    </article>
+                </div>
+
+
+                <div class="col-md-6">
+                    <article class="item-servicios">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h4>Servicios de capacitación</h4>
+                        <ul style="text-align: left;">
+                            <li>Formación e integración de brigadas</li>
+                            <li>Programa Interno de Protección Civil y Planes de Emergencia.</li>
+                            <li>Primeros auxilios, Búsqueda y Rescate, Evacuación, Contra incendios</li>
+                            <li>Asesoría Técnica en Seguridad Industrial</li>
+                            <li>Estudios de riesgo normativos NOM-002-STPS-2010 (Por Incendio) y Método JSA</li>
+                            <li>Capacitación NOM-018-STPS-2015</li>
+                            <li>PASST EN SUS TRES NIVELES</li>
+                            <li>Proyectos de Identificación de riesgos</li>
+                            <li>Simulacros de Gabinete y Campo.</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#servicio2">Más información</a>
+
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <app-footer [el]="ElementInit"></app-footer>
+
+    <!-- Modal 1  -->
+    <div class="modal fade" id="servicio1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Venta, recarga y mantenimiento de equipos</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+
+                        <div class="col-md-8">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non error, reprehenderit iusto illo quo? Molestiae, sed blanditiis officiis qui corporis odit dignissimos numquam, nulla quo commodi, alias in maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non error, reprehenderit iusto illo quo? Molestiae, sed blanditiis officiis qui corporis odit dignissimos numquam, nulla quo commodi, alias in maxime.
+                        </div>
+
+                        <div class="col-md-4">
+                            <img src="/assets/images/servicio-1.jpeg" alt="" width="200" class="img-fluid m-x-auto">
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 2  -->
+    <div class="modal fade" id="servicio2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Servicios de capacitación</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+
+                        <div class="col-md-8">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non error, reprehenderit iusto illo quo? Molestiae, sed blanditiis officiis qui corporis odit dignissimos numquam, nulla quo commodi, alias in maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non error, reprehenderit iusto illo quo? Molestiae, sed blanditiis officiis qui corporis odit dignissimos numquam, nulla quo commodi, alias in maxime.
+                        </div>
+
+                        <div class="col-md-4">
+                            <img src="/assets/images/servicio-2.jpeg" alt="" width="200" class="img-fluid m-x-auto">
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>    
+</div>

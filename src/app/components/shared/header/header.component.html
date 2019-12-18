@@ -1,0 +1,20 @@
+<header class="encabezado navbar-fixed-top" role="banner" id="encabezado">
+    <div class="container">
+        <a [routerLink]="['/home']" href="index.html" class="logo">
+            <img src="/assets/images/logo_text.png" alt="Logo del sitio" style="height: 30px; width: 170px;">
+        </a>
+        <button type="button" class="boton-menu d-block d-md-none" data-toggle="collapse" data-target="#menu-principal"
+            aria-expanded="false">
+            <i class="fa fa-bars" aria-hidden="true"></i></button>
+
+        <nav id="menu-principal" class="collapse">
+            <ul>
+                <li [routerLinkActive]="['active']"><a [routerLink]="['/home']">Inicio</a></li>
+                <li [routerLinkActive]="['active']"><a [routerLink]="['/about']">Nosotros</a></li>
+                <li [routerLinkActive]="['active']"><a [routerLink]="['/services']">Servicios</a></li>
+                <li [routerLinkActive]="['active']"><a [routerLink]="['/contact']">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>

@@ -1,0 +1,173 @@
+<section #ElementInit class="bienvenidos">
+
+    <app-header></app-header>
+
+
+    <div class="texto-encabezado text-center d-none d-md-block">
+
+        <div class="container">
+            <h1 class="display-4 wow bounceIn">Proveedora de Seguridad (Occupational Safety and Health)</h1>
+            <p class="wow bounceIn" data-wow-delay=".3s">Distribuidora de todo tipo de artículos de Seguridad de gran variedad y de las mejores marcas.</p>
+            <a [routerLink]="['/contact']" class="btn btn-primary btn-lg">Ponte en contacto</a>
+        </div>
+
+    </div>
+    <div class="flecha-bajar text-center">
+        <a data-scroll class="puntero" (click)="move(agencia)"> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    </div>
+
+</section>
+<section #agencia class="agencia py-1" id="agencia">
+
+    <div class="container">
+
+
+        <div class="row">
+
+            <div class="col-md-8 col-xl-9 wow bounceIn" data-wow-delay=".3s">
+                <h2 class="h3 text-center text-md-left font-weight-bold">Proveedora de Seguridad</h2>
+                <p>PROSEG te asesora en la compra, capacitación de equipos de seguridad 
+                    integral para su empresa.</p>
+                <p>Ponemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con
+                    supervisión de todos y cada uno de los pasos que has de seguir para crear un ambiente seguro
+                    nuestros servicios son avaladas por nuestros años de experiencia.</p>
+
+            </div>
+            <div class="col-md-4 col-xl-3 wow bounceIn" data-wow-delay=".6s">
+                <img src="/assets/images/agencia.jpeg" style="height: 331px; width: 100%;" alt="La agencia">
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="tu-mejor-eleccion py-1">
+    <div class="container">
+
+        <h2 class="h3 text-center font-weight-bold">¿Porque somos <span>tu mejor elección?</span></h2>
+        <p class="text-center">
+                Distribuidora de todo tipo de artículos de Seguridad de gran variedad y de las mejores marcas.
+        </p>
+
+        <div class="row">
+            <ul class="col-xs-6 col-lg-4 text-center text-lg-left">
+                <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".3s">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+
+                    <div class="contenedor-eleccion">
+                        <h4>Venta, recarga y mantenimiento</h4>
+                        <p class="hidden-md-down">Extintores, equipos contra incendio, granadas vs incendio y Extintores Automáticos.</p>
+                    </div>
+                </li>
+                <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".7s">
+                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                    <div class="contenedor-eleccion">
+                        <h4>Equipo pre hospitalario</h4>
+                        <p class="hidden-md-down">camillas, botiquines.</p>
+                    </div>
+                </li>
+                <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay="1.1s">
+
+                    <i class="fa  fa-comment-o" aria-hidden="true"></i>
+
+                    <div class="contenedor-eleccion">
+                        <h4>Equipo de protección</h4>
+                        <p class="hidden-md-down">Equipo de protección personal conforme NOM 017 STPS.</p>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="hidden-md-down col-lg-4">
+                <img src="/assets/images/mundo.jpeg" style="height: 316px; width: 100%;" alt="Mundo movil">
+            </div>
+
+            <ul class="col-xs-6 col-lg-4 text-center text-lg-right">
+                <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".5s">
+                    <i class="fa  fa-calendar" aria-hidden="true"></i>
+                    <div class="contenedor-eleccion">
+                        <h4>Formación</h4>
+                        <p class="hidden-md-down">Formación e integración de brigadas.</p>
+                    </div>
+                </li>
+                <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".9s">
+                    <i class="fa  fa-check-square-o" aria-hidden="true"></i>
+                    <div class="contenedor-eleccion">
+                        <h4>Programa Interno</h4>
+                        <p class="hidden-md-down">Programa Interno de Protección Civil y Planes de Emergencia.
+                        </p>
+                    </div>
+                </li>
+                <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay="1.3s">
+                    <i class="fa  fa-cogs" aria-hidden="true"></i>
+                    <div class="contenedor-eleccion">
+                        <h4>Estudios de riesgo</h4>
+                        <p class="hidden-md-down">Estudios de riesgo normativos NOM-002-STPS-2010 (Por Incendio) y Método JSA.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<main class="servicios py-1">
+    <div class="container">
+        <h2 class="text-center font-weight-bold">Nuestros Servicios</h2>
+
+
+        <div class="row">
+            <article class="col-md-6 wow bounceInLeft" data-wow-delay=".3s">
+                <img src="/assets/images/servicio-1.jpeg" style="height: 250px; width: 100%;" alt="Venta, recarga y mantenimiento de equipos">
+                <h3><a href="#"> Venta, recarga y mantenimiento de equipos </a></h3>
+                <p class="hidden-sm-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non error, reprehenderit iusto illo quo? Molestiae, sed blanditiis officiis qui corporis odit dignissimos numquam, nulla quo commodi, alias in maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non error, reprehenderit iusto illo quo? Molestiae, sed blanditiis officiis qui corporis odit dignissimos numquam, nulla quo commodi, alias in maxime.</p>                
+
+            </article>
+
+            <article class="col-md-6 wow bounceInUp" data-wow-delay=".6s">
+                <img src="/assets/images/servicio-2.jpeg" style="height: 250px; width: 100%;" alt="Servicios de capacitación">
+                <h3><a href="#">Servicios de capacitación</a></h3>
+                <p class="hidden-sm-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non error, reprehenderit iusto illo quo? Molestiae, sed blanditiis officiis qui corporis odit dignissimos numquam, nulla quo commodi, alias in maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis non error, reprehenderit iusto illo quo? Molestiae, sed blanditiis officiis qui corporis odit dignissimos numquam, nulla quo commodi, alias in maxime.</p>                
+            </article>           
+
+        </div>
+    </div>
+</main>
+
+
+<section class="ultimos-proyectos py-1">
+    <div class="container">
+        <h2 class="text-center font-weight-bold">Galería</h2>
+
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide>
+                <div style="padding: 10px;">
+                    <h4>Galería 1</h4>
+                    <img src="/assets/images/galeria1.jpeg" style="height: 260px;" alt="Galería 1">                
+                </div>
+            </ng-template> 
+            <ng-template carouselSlide>
+                <div style="padding: 10px;">
+                    <h4>Galería 2</h4>
+                    <img src="/assets/images/galeria2.jpeg" style="height: 260px;" alt="Galería 2">
+                </div>
+            </ng-template> 
+            <ng-template carouselSlide>
+                <div style="padding: 10px;">
+                    <h4>Galería 3</h4>
+                    <img src="/assets/images/galeria3.jpeg" style="height: 260px;" alt="Galería 3">
+                </div>
+            </ng-template> 
+            <ng-template carouselSlide>                
+                <div style="padding: 10px;">
+                    <h4>Galería 4</h4>
+                    <img src="/assets/images/galeria4.jpeg" style="height: 260px;" alt="Galería 4">
+                </div>
+            </ng-template> 
+            <ng-template carouselSlide>
+                <div style="padding: 10px;">
+                    <h4>Galería 5</h4>
+                    <img src="/assets/images/galeria5.jpeg" style="height: 260px;" alt="Galería 5">
+                </div>
+            </ng-template> 
+        </owl-carousel-o>
+    </div>
+</section>
+<app-footer [el]="ElementInit"></app-footer>
