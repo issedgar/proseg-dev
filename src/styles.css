@@ -7,7 +7,7 @@ body {
   color: #111111; }
 
 .bienvenidos {
-  background: url("/assets/images/fondo-encabezado-black.png") no-repeat center top;
+  background: url("./assets/images/fondo-encabezado-black.png") no-repeat center top;
   color: #fff;
   background-size: cover;
   background-attachment: fixed !important;
@@ -193,7 +193,7 @@ SECCION TU MEJOR ELECCI├ôN
 SECCION SERVICIOS
 --------------------------------*/
 .servicios {
-  background: url("/assets/images/fondo-servicios.jpg") no-repeat center center;
+  background: url("./assets/images/fondo-servicios.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed !important;
   color: #fff; }
@@ -543,7 +543,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     font-size: 16px; }
 
   .bienvenidos {
-    background: url("/assets/images/fondo-encabezado-black.png") no-repeat center top;
+    background: url("./assets/images/fondo-encabezado-black.png") no-repeat center top;
     background-size: cover; }
 
   .tu-mejor-eleccion ul li {
@@ -593,7 +593,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     width: 100%; }
 
   .servicios {
-    background: url("/assets/images/fondo-servicios-grande.jpg") no-repeat center center;
+    background: url("./assets/images/fondo-servicios-grande.jpg") no-repeat center center;
     background-size: cover; } }
 
     .puntero{
